@@ -28,5 +28,9 @@ int main()
 	}
 
 	_getch();
+	
+	delete first_number;
+	delete second_number;
+
 	return 0;
 }
