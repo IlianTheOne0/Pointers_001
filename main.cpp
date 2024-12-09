@@ -9,19 +9,19 @@ int main()
 {
 	int *number = new int;
 
-	cout << "Enter the first number: ";
+	cout << "Enter the number: ";
 	cin >> *number;
 
-	if (*first_number < *second_number)
+	if (*number < 0)
 	{
-		cout << *second_number << " is bigger, than " << *first_number << endl;
+		cout << *number << " is negative" << endl;
 	}
-	else if (*first_number > *second_number)
+	else if (*number > 0)
 	{
-		cout << *first_number << " is bigger, than " << *second_number << endl;
+		cout << *number << " is positive" << endl;
 	}
 	else {
-		cout << *first_number << " equals " << *second_number << endl;
+		cout << *number << " equals zero" << endl;
 	}
 
 	_getch();
