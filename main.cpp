@@ -7,8 +7,7 @@ using std::cin;
 
 int main()
 {
-	int* first_number = new int;
-	int* second_number = new int;
+	int *number = new int;
 
 	cout << "Enter the first number: ";
 	cin >> *number;
