@@ -24,6 +24,7 @@ int main()
 		cout << *number << " equals zero" << endl;
 	}
 
+	delete number;
 	_getch();
 	return 0;
 }
